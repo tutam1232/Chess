@@ -1,0 +1,234 @@
+*,*:before,*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.thumb{
+    opacity: 30%;
+    z-index: 6;
+}
+.turn{
+    display: flex;
+    margin: 50px;
+    background-color: rgb(88, 101, 93);
+    width: 300px;
+    height: 100px;
+
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+}
+.Wrapper{
+    display: flex;
+}
+
+.remove{
+    display: none;
+}
+
+body{
+    position: relative;
+}
+
+/* ------------------------------------------ */
+
+[class*="available"]{
+    width: 70px;
+    height: 70px;
+    opacity: 70%;
+    background-color: aquamarine;
+
+    display: absolute;
+    z-index: 4;
+
+    display: none;
+}
+
+
+[class*="c_"]{
+    width: 70px;
+    height: 70px;   
+    background-color: rgb(88, 101, 93);
+}
+
+[class*="row"]{
+    display: flex;
+}
+
+[class*="row"]:nth-child(odd)>[class*="c_"]:nth-child(even){
+    background-color: rgb(0, 66, 16);
+}
+
+[class*="row"]:nth-child(even)>[class*="c_"]:nth-child(odd){
+    background-color: rgb(0, 66, 16);
+}
+
+/* -----------------------quan co vua trang */
+
+[class*="white"]{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    z-index: 5;
+
+    color: white;
+    font-size: 60px;
+    text-align: center;
+
+    user-select: none;
+}
+
+.white_xe1{
+    top: 490px;
+    left: 0px;
+}
+.white_ngua1{
+    top: 490px;
+    left: 70px;
+}
+.white_tuong1{
+    top: 490px;
+    left: 140px;
+}
+.white_hau{
+    top: 490px;
+    left: 210px;
+}
+.white_vua{
+    top: 490px;
+    left: 280px;
+}
+.white_tuong2{
+    top: 490px;
+    left: 350px;
+}
+.white_ngua2{
+    top: 490px;
+    left: 420px;
+}
+.white_xe2{
+    top: 490px;
+    left: 490px;
+}
+
+
+.white_tot1{
+    top: 420px;
+    left: 0px;
+}
+.white_tot2{
+    top: 420px;
+    left: 70px;
+}
+.white_tot3{
+    top: 420px;
+    left: 140px;
+}
+.white_tot4{
+    top: 420px;
+    left: 210px;
+}
+.white_tot5{
+    top: 420px;
+    left: 280px;
+}
+.white_tot6{
+    top: 420px;
+    left: 350px;
+}
+.white_tot7{
+    top: 420px;
+    left: 420px;
+}
+.white_tot8{
+    top: 420px;
+    left: 490px;
+}
+
+/* -----------------------quan co vua den */
+
+[class*="black"]{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    z-index: 5;
+
+    font-size: 60px;
+    text-align: center;
+    
+    user-select: none;
+}
+
+.black_xe1{
+    top: 0px;
+    left: 0px;
+}
+.black_ngua1{
+    top: 0px;
+    left: 70px;
+}
+.black_tuong1{
+    top: 0px;
+    left: 140px;
+}
+.black_hau{
+    top: 0px;
+    left: 210px;
+}
+.black_vua{
+    top: 0px;
+    left: 280px;
+}
+.black_tuong2{
+    top: 0px;
+    left: 350px;
+}
+.black_ngua2{
+    top: 0px;
+    left: 420px;
+}
+.black_xe2{
+    top: 0px;
+    left: 490px;
+}
+
+
+.black_tot1{
+    top: 70px;
+    left: 0px;
+}
+.black_tot2{
+    top: 70px;
+    left: 70px;
+}
+.black_tot3{
+    top: 70px;
+    left: 140px;
+}
+.black_tot4{
+    top: 70px;
+    left: 210px;
+}
+.black_tot5{
+    top: 70px;
+    left: 280px;
+}
+.black_tot6{
+    top: 70px;
+    left: 350px;
+}
+.black_tot7{
+    top: 70px;
+    left: 420px;
+}
+.black_tot8{
+    top: 70px;
+    left: 490px;
+} 
+
+
